@@ -1,0 +1,90 @@
+.videocontainer {
+  z-index: -20;
+  background: rgb(255,200,0,0.2);
+  margin: auto;
+  position: fixed;
+  max-height: 100%;
+  max-width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+.content {
+  margin-top: -3%;
+  width: 100%;
+  height: 100%;
+  background: #FF0;
+  visibility: hidden;
+}
+.content * {
+  z-index: 30;
+  visibility: visible;
+}
+video {
+  z-index: -10;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+}
+.another {
+  cursor: default;
+  z-index: 20;
+  background: rgba(255,255,255,0.4);
+  width: 5%;
+  height: 8.8%;
+  border-radius: 5%;
+  margin-left: 92.5%;
+  margin-top: 5%;
+}
+.another p {
+  font-size: 45px;
+  cursor: default;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  padding-top: 17.5%;
+}
+
+/* .separator {
+  z-index: 30;
+  width: 1vw;
+  height: 1vw;
+  background-color: #0f0;
+  border-radius: 50%;
+  margin-top: 47.2%;
+  margin-left: 2%;
+} */
+#timecontroller {
+  background: rgba(255,0,0,0.1);
+  width: 100%;
+  height: 4%;
+  padding-top: 1%;
+  display: block;
+  position: relative;
+  margin-top: 46%;
+}
+#timecontroller #line {
+  background: #AAA;
+  width: 95%;
+  height: 20%;
+  border-radius: 5vw;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  display: block;
+  position: relative;
+}
+#timecontroller #afterline {
+  background: #0F0;
+  width: 40%;
+  height: 20%;
+  border-radius: 5vw;
+  margin-left: 2.5%;
+  margin-top: -0.45%;
+  display: block;
+  position: relative;
+}
